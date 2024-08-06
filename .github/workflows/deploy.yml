@@ -1,0 +1,23 @@
+name: Deploy Site
+
+on:
+  push:
+    branches:
+      - main  #ação que dispara o deploy quando há push na 'main'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Deploy via SFTP
+        uses: samkirkland/FTP-Deploy-Action@4.3.0
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./  # Diretório local de onde os arquivos serão copiados
+          server-dir: /public_html  # Diretório remoto onde os arquivos serão armazenados
