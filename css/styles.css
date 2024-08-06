@@ -15,3 +15,11 @@ body {
 h1 {
     color: #ffc107;
 }
+
+.logo-hover img {
+    transition: opacity 0.3s ease-in-out;
+}
+
+.logo-hover:hover img {
+    content: url("/images/logo_mostarda.png");
+}
