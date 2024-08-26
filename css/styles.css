@@ -35,19 +35,63 @@ h1 {
     content: url("/images/logo_mostarda.png");
 }
 
+/*Configuração da modal de horário de atendimento*/
+
 .horario-modal {
-    position: absolute;
+    position: fixed;     
     top: 80px;
     right: 20px;
+    z-index: 1000;
+}
+
+.horario-circulo {
     background-color: #ffc107;
     color: #000;
-    padding: 5px 15px;
-    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    font-size: 1.5rem;
+}
+
+.horario-texto {
+    background-color: #ffc107;
+    color: #000;
+    padding: 10px 15px;
+    border-radius: 10px;
     font-weight: bold;
     font-size: 14px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    border-style: solid;
+    margin-top: 10px;
+    display: none; /* Escondido inicialmente */
+    max-width: 250px; /* Define uma largura máxima para a caixa */
+    position: absolute;
+    right: 0;
+    top: 50px; /* Posiciona abaixo do círculo */
 }
+
+.horario-texto.show {
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .horario-modal {
+        top: auto;
+        bottom: 20px;
+        right: 20px;
+    }
+    .horario-texto {
+        top: auto;
+        bottom: 50px;
+        right: 0;
+    }
+}
+
+/*Configuração do carrosel de imagens na página inicial*/
 
 .carousel {
     width: 80%;
@@ -56,11 +100,13 @@ h1 {
 
 .carousel-inner img {
     max-width: 100%;
-    max-height: 400px;
+    max-height: 550px;
     width: auto;
     height: auto;
     object-fit: contain;
 }
+
+/*Configuração do rodape*/
 
 footer {
     background-color: #343a40;
@@ -87,7 +133,7 @@ footer h5 {
 }
 
 .social-icons i {
-    color: #ffffff;
+    color: #ffc107;
 }
 
 footer a:hover {
