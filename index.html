@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
-<header>
+<header> <!-- cabeçalho da página -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand logo-hover" href="index.html">
             <img src="images/logo_branco.png" alt="Logo Villa Faria" width="160" height="auto">
@@ -35,7 +35,7 @@
         </div>
     </nav>
 </header>
-<body>
+<body> <!-- corpo da página -->
     <div class="horario-modal">
         <div class="horario-circulo" id="horarioCirculo">
             <i class="fas fa-exclamation"></i>
@@ -45,7 +45,7 @@
         </div>
     </div>
 
-    <div class="container mt-5">
+    <div class="container mt-5"> <!-- seção welcome -->
         <div class="row">
             <div class="col">
                 <h1>Bem-vindo à Madeiras Villa Faria, estamos localizados em Blumenau!</h1>
@@ -53,7 +53,7 @@
             </div>
         </div>
     </div>
-    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel"> <!-- carrossel de imagens -->
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -79,6 +79,50 @@
             <span class="sr-only">Próximo</span>
         </a>
     </div>
+    <div class="container-cards mt-5 text-center"> <!-- cards interativos -->
+        <h2 class="section-title">Orçamento Online de Madeiras</h2>
+        <p class="section-subtitle">O jeito mais rápido e fácil de encontrar o melhor preço de madeiras. Cobrimos o valor da concorrência!</p>
+    
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card-custom">
+                    <div class="icon-container">
+                        <i class="fas fa-clipboard icon-custom"></i>
+                    </div>
+                    <h3>Meu Orçamento</h3>
+                    <p>Basta informar seus dados de contato e o que está precisando! Nossa equipe retorna rapidamente.</p>
+                    <a href="orcamento.html" class="cta-link">Meu Orçamento <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+    
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card-custom">
+                    <div class="icon-container">
+                        <i class="fas fa-whatsapp icon-custom"></i>
+                    </div>
+                    <h3>Pedidos Especiais</h3>
+                    <p>Precisa de madeiras difíceis de encontrar? Entre em contato. A gente resolve!</p>
+                    <a href="https://api.whatsapp.com/send?phone=55${47991448075}&text=Olá! Preciso de ajuda, vim pelo site!" target="_blank" class="cta-link">Quero entrar em contato <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+    
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card-custom">
+                    <div class="icon-container">
+                        <i class="fas fa-map-marker-alt icon-custom"></i>
+                    </div>
+                    <h3>Localização</h3>
+                    <p>Estamos em Blumenau-SC. Venha conferir nossos produtos para pronta entrega.</p>
+                    <a href="https://www.google.com/maps/place/Madeiras+Villa+Faria/@-26.9375287,-49.0698832,15z/data=!4m2!3m1!1s0x0:0x1c3eea3169595d96?sa=X&ved=1t:2428&ictx=111" target="_blank" class="cta-link">Encontre-nos no Mapa <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
     <footer class="bg-dark text-white mt-5 pt-4 pb-4">
         <div class="container">
             <div class="row">
