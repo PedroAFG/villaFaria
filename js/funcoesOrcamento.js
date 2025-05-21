@@ -22,7 +22,7 @@ document.getElementById('orcamentoForm').addEventListener('submit', function(eve
 
     if (contato === 'email') {
         // Enviar via email utilizando mailto:
-        const mailtoLink = `mailto:pedroantoniodefariagarcia@gmail.com?subject=Solicitação de Orçamento&body=Nome: ${nome}%0AEmail: ${email}%0ATipo de Cliente: ${tipoCliente}%0AEmpresa: ${empresa}%0ADescrição: ${descricao}`;
+        const mailtoLink = `mailto:madeirasvillafaria@gmail.com.com?subject=Solicitação de Orçamento&body=Nome: ${nome}%0AEmail: ${email}%0ATipo de Cliente: ${tipoCliente}%0AEmpresa: ${empresa}%0ADescrição: ${descricao}`;
         window.location.href = mailtoLink;
     } else if (contato === 'whatsapp') {
         // Enviar via WhatsApp
