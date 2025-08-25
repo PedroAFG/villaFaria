@@ -1,0 +1,420 @@
+/* Estilos específicos para a página de estoque - Villa Faria */
+
+/* Hero Section */
+.hero-estoque {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/fundo_madeirado.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.hero-estoque h1 {
+    color: #ffc107;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+/* Container de Filtros */
+.filtros-container {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    border-bottom: 1px solid #dee2e6;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.filtros-container .form-group label {
+    color: #333;
+    font-weight: 600;
+}
+
+.filtros-container .form-control {
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.filtros-container .form-control:focus {
+    border-color: #ffc107;
+    box-shadow: 0 0 0 0.2rem rgba(255, 193, 7, 0.25);
+}
+
+/* Cards de Produtos */
+.produto-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    overflow: hidden;
+    border: 1px solid #e9ecef;
+}
+
+.produto-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.produto-imagem {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.produto-info {
+    padding: 20px;
+}
+
+.produto-info h3 {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+}
+
+.produto-preco {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+
+.produto-dimensoes {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 15px 0;
+    border-left: 4px solid #ffc107;
+}
+
+.produto-dimensoes span {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.produto-dimensoes span:last-child {
+    margin-bottom: 0;
+}
+
+.produto-caracteristicas {
+    margin: 15px 0;
+}
+
+.produto-caracteristicas ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.produto-caracteristicas li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+    color: #555;
+    font-size: 0.9rem;
+}
+
+.produto-caracteristicas li:last-child {
+    border-bottom: none;
+}
+
+.produto-caracteristicas li:before {
+    content: "✓";
+    color: #ffc107;
+    font-weight: bold;
+    margin-right: 8px;
+}
+
+/* Botões */
+.btn-estoque {
+    background-color: #ffc107;
+    border: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.btn-estoque:hover {
+    background-color: #e0a800;
+    color: #333;
+    text-decoration: none;
+    transform: translateY(-2px);
+}
+
+.btn-estoque.btn-outline {
+    background-color: transparent;
+    border: 2px solid #ffc107;
+    color: #ffc107;
+}
+
+.btn-estoque.btn-outline:hover {
+    background-color: #ffc107;
+    color: #333;
+}
+
+/* Informações de Resultados */
+.resultados-info {
+    background-color: #ffc107;
+    color: #333;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+/* Carrossel Swiper */
+.swiper {
+    width: 100%;
+    height: 250px;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+}
+
+.swiper-pagination-bullet {
+    background: #ffc107;
+    opacity: 0.7;
+}
+
+.swiper-pagination-bullet-active {
+    background: #fff;
+    opacity: 1;
+}
+
+/* Modal do Produto */
+.modal-produto .modal-body {
+    padding: 0;
+}
+
+.galeria-produto {
+    position: relative;
+}
+
+.galeria-principal {
+    height: 400px;
+    background-color: #000;
+}
+
+.galeria-principal img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.galeria-thumbnails {
+    padding: 15px;
+    background-color: #f8f9fa;
+}
+
+.thumbnail-item {
+    width: 80px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+    border-radius: 4px;
+}
+
+.thumbnail-item:hover,
+.thumbnail-item.active {
+    border-color: #ffc107;
+}
+
+.produto-detalhes {
+    padding: 20px;
+}
+
+.produto-detalhes h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+/* Estados de Loading e Erro */
+.loading {
+    text-align: center;
+    padding: 50px;
+    color: #666;
+}
+
+.loading i {
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+
+.sem-resultados {
+    text-align: center;
+    padding: 50px;
+    color: #666;
+}
+
+.sem-resultados i {
+    color: #ffc107;
+    margin-bottom: 15px;
+}
+
+/* Paginação */
+.paginacao {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.paginacao .btn {
+    margin: 0 5px;
+}
+
+.paginacao .btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#info-pagina {
+    display: inline-block;
+    margin: 0 15px;
+    font-weight: 600;
+    color: #666;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .hero-estoque {
+        padding: 50px 0;
+    }
+    
+    .hero-estoque h1 {
+        font-size: 2rem;
+    }
+    
+    .filtros-container {
+        position: static;
+        padding: 20px 0;
+    }
+    
+    .filtros-container .row > div {
+        margin-bottom: 15px;
+    }
+    
+    .produto-card {
+        margin-bottom: 20px;
+    }
+    
+    .produto-info {
+        padding: 15px;
+    }
+    
+    .produto-preco {
+        font-size: 1.3rem;
+    }
+    
+    .btn-estoque {
+        display: block;
+        width: 100%;
+        margin: 5px 0;
+        text-align: center;
+    }
+    
+    .galeria-principal {
+        height: 300px;
+    }
+    
+    .thumbnail-item {
+        width: 60px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-estoque h1 {
+        font-size: 1.8rem;
+    }
+    
+    .hero-estoque p {
+        font-size: 1rem;
+    }
+    
+    .produto-card {
+        margin-bottom: 15px;
+    }
+    
+    .produto-info {
+        padding: 12px;
+    }
+    
+    .produto-dimensoes {
+        padding: 12px;
+    }
+    
+    .produto-caracteristicas li {
+        font-size: 0.85rem;
+    }
+}
+
+/* Animações */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.produto-card {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* Melhorias de Acessibilidade */
+.produto-card:focus-within {
+    outline: 2px solid #ffc107;
+    outline-offset: 2px;
+}
+
+.btn-estoque:focus {
+    outline: 2px solid #333;
+    outline-offset: 2px;
+}
+
+/* Suporte a modo escuro (se implementado no futuro) */
+@media (prefers-color-scheme: dark) {
+    .produto-card {
+        background: #2d3748;
+        color: #e2e8f0;
+        border-color: #4a5568;
+    }
+    
+    .produto-info h3 {
+        color: #e2e8f0;
+    }
+    
+    .produto-dimensoes {
+        background-color: #4a5568;
+        color: #e2e8f0;
+    }
+    
+    .produto-caracteristicas li {
+        color: #cbd5e0;
+        border-bottom-color: #4a5568;
+    }
+}
