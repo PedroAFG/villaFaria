@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estoque - Villa Faria</title>
+    <meta name="description" content="Catálogo completo de madeiras disponíveis em estoque na Villa Faria. Ipê, Cumaru, Garapa e outras madeiras nobres para seu projeto.">
+    <meta property="og:title" content="Estoque - Villa Faria">
+    <meta property="og:description" content="Catálogo completo de madeiras disponíveis em estoque na Villa Faria. Ipê, Cumaru, Garapa e outras madeiras nobres.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="images/imagem_2025_fachada.jpeg">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/estoque.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    
+    <!-- Swiper CSS para carrossel -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    
+
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container d-flex justify-content-between text-white small">
+                <!-- Redes sociais à esquerda -->
+                <div class="top-bar-social d-flex align-items-center">
+                    <a href="https://www.facebook.com/profile.php?id=61563221021332&ref=xav_ig_profile_web" target="_blank" class="text-white mr-3">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/madeirasvillafaria/" target="_blank" class="text-white">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <!-- Informações à direita -->
+                <div class="top-bar-info d-flex flex-column flex-md-row align-items-center">
+                    <span class="mr-md-3"><i class="fas fa-map-marker-alt"></i> Blumenau, SC</span>
+                    <span class="mr-md-3"><i class="fas fa-phone-alt"></i> (47) 99144-8075</span>
+                    <span><i class="fas fa-clock"></i> Seg a Sex: 07h às 17h</span>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand logo-hover" href="index.html">
+                <img src="images/logo_branco.png" alt="Logo Villa Faria" width="160" height="auto">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="orcamento.html">Orçamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="servicos.html">Serviços</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="estoque.html">Estoque</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-estoque">
+        <div class="container">
+            <h1 class="display-4 font-weight-bold">Estoque</h1>
+            <p class="lead">Catálogo completo de madeiras nobres disponíveis para pronta entrega</p>
+        </div>
+    </section>
+
+    <!-- Filtros e Busca -->
+    <div class="filtros-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label for="busca" class="font-weight-bold">Buscar produtos</label>
+                        <input type="text" class="form-control" id="busca" placeholder="Nome ou descrição do produto...">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="precoMin" class="font-weight-bold">Preço min</label>
+                        <input type="number" class="form-control" id="precoMin" placeholder="R$ 0">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="precoMax" class="font-weight-bold">Preço max</label>
+                        <input type="number" class="form-control" id="precoMax" placeholder="R$ 1000">
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="espessura" class="font-weight-bold">Espessura (mm)</label>
+                        <select class="form-control" id="espessura">
+                            <option value="">Todas</option>
+                            <option value="15">15mm</option>
+                            <option value="20">20mm</option>
+                            <option value="25">25mm</option>
+                            <option value="30">30mm</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <div class="form-group">
+                        <label for="ordenacao" class="font-weight-bold">Ordenar por</label>
+                        <select class="form-control" id="ordenacao">
+                            <option value="nome-asc">Nome A-Z</option>
+                            <option value="nome-desc">Nome Z-A</option>
+                            <option value="preco-asc">Preço ↑</option>
+                            <option value="preco-desc">Preço ↓</option>
+                            <option value="espessura-asc">Espessura ↑</option>
+                            <option value="espessura-desc">Espessura ↓</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Resultados -->
+    <div class="container mt-4">
+        <div class="resultados-info">
+            <span id="contador-resultados">Carregando produtos...</span>
+        </div>
+        
+        <div id="produtos-container" class="row">
+            <div class="loading">
+                <i class="fas fa-spinner fa-spin fa-2x"></i>
+                <p>Carregando produtos...</p>
+            </div>
+        </div>
+        
+        <div id="paginacao" class="paginacao" style="display: none;">
+            <button class="btn btn-estoque" id="btn-anterior">Anterior</button>
+            <span id="info-pagina">Página 1 de 1</span>
+            <button class="btn btn-estoque" id="btn-proximo">Próximo</button>
+        </div>
+    </div>
+
+    <!-- Modal do Produto -->
+    <div class="modal fade" id="modalProduto" tabindex="-1" role="dialog" aria-labelledby="modalProdutoLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalProdutoLabel">Detalhes do Produto</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="galeria-produto">
+                        <div class="galeria-principal">
+                            <div class="swiper galeria-principal-swiper">
+                                <div class="swiper-wrapper" id="galeria-principal">
+                                    <!-- Imagens principais serão inseridas aqui -->
+                                </div>
+                                <div class="swiper-pagination"></div>
+                            </div>
+                        </div>
+                        <div class="galeria-thumbnails">
+                            <div class="swiper galeria-thumbnails-swiper">
+                                <div class="swiper-wrapper" id="galeria-thumbnails">
+                                    <!-- Thumbnails serão inseridos aqui -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="produto-detalhes" id="produto-detalhes">
+                        <!-- Detalhes do produto serão inseridos aqui -->
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <a href="https://api.whatsapp.com/send?phone=5547991448075&text=Olá! Gostaria de solicitar um orçamento para:" class="btn btn-estoque" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+                    </a>
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Flutuante -->
+    <a href="https://api.whatsapp.com/send?phone=5547991448075" 
+        class="whatsapp-float" 
+        target="_blank" 
+        aria-label="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white mt-5 pt-4 pb-4">
+        <div class="container">
+            <div class="row">
+                <!-- Opções de Pagamento -->
+                <div class="col-md-4">
+                    <h5>Formas de Pagamento</h5>
+                    <div class="payment-icons">
+                        <i class="fab fa-pix"></i>
+                        <i class="fab fa-cc-mastercard"></i>
+                        <i class="fab fa-cc-visa"></i>
+                    </div>
+                </div>
+                <!-- Redes Sociais -->
+                <div class="col-md-4 text-center">
+                    <h5>Siga-nos</h5>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=61563221021332&ref=xav_ig_profile_web" target="_blank" class="text-white mr-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.instagram.com/madeirasvillafaria/" class="text-white mr-2" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://api.whatsapp.com/send/?phone=47991448075&text&type=phone_number&app_absent=0" target="_blank" class="text-white mr-2"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <!-- Localização -->
+                <div class="col-md-4 text-right">
+                    <h5>Localização</h5>
+                    <p>Rua Hermann Huscher, 1035, Vila Formosa, Blumenau - SC</p>
+                    <p><i class="fas fa-map-marker-alt"></i><a href="https://www.google.com/maps/place/Madeiras+Villa+Faria/@-26.9375287,-49.0698832,15z/data=!4m2!3m1!1s0x0:0x1c3eea3169595d96?sa=X&ved=1t:2428&ictx=111" target="_blank" class="text-white"> Ver no Google Maps</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="js/estoque.js"></script>
+</body>
+</html>

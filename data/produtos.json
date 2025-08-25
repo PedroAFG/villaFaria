@@ -1,0 +1,136 @@
+[
+  {
+    "id": "tabua-pinus-simples-25x300",
+    "nome": "Tábua Pinus Simples 30 cm",
+    "preco": 60.0,
+    "descricao": "Madeira seca, ótima para marcenaria, construção civil e decoração.",
+    "largura_mm": 300,
+    "comprimento_mm": 3000,
+    "espessura_mm": 25,
+    "tipo": ["Pinus Simples", "Tábua"],
+    "caracteristicas": [
+      "Proveniente de reflorestamento",
+      "Textura fina, macia e fácil para trabalho",
+      "Densidade leve e moderada",
+      "Sustentável",
+      "Pode ser plainado!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/imagem_tabua_30_pinus_simples.jpg",
+        "alt": "Tábuas de Pinus com 30 cm de largura"
+      },
+      {
+        "src": "images/estoque/imagem_2_tabua_30_pinus_simples.jpg",
+        "alt": "Tábua plainada e galopada"
+      }
+    ]
+  },
+  {
+    "id": "sarrafo-pinus-simples-25x50",
+    "nome": "Sarrafo Pinus Simples",
+    "preco": 6.0,
+    "descricao": "Madeira leve, alguns nós aparentes e veios suaves",
+    "largura_mm": 50,
+    "comprimento_mm": 3000,
+    "espessura_mm": 25,
+    "tipo": ["Pinus Simples", "Sarrafo"],
+    "caracteristicas": [
+      "Leve e fácil de trabalhar",
+      "Aceita bem corte, pregos e acabamentos",
+      "Textura fina",
+      "Sustentável",
+      "Pode ser plainado!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/imagem_sarrafos_pinus_simples.jpg",
+        "alt": "Sarrafos 2,5 x 5 cm"
+      },
+      {
+        "src": "images/estoque/imagem_sarrafo_pinus_simples_2.jpg",
+        "alt": "Sarrafos plainados"
+      }
+    ]
+  },
+  {
+    "id": "sarrafo-5x5-pinus-simples-50x50",
+    "nome": "5 x 5 Pinus Simples",
+    "preco": 12.45,
+    "descricao": "Peça extremamente versátil, ideal para diversas aplicações.",
+    "largura_mm": 50,
+    "comprimento_mm": 3000,
+    "espessura_mm": 50,
+    "tipo": ["Pinus Simples", "5 x 5"],
+    "caracteristicas": [
+      "Madeira macia",
+      "Ótimo custo benefício",
+      "Estrutuas (telhado), acabamentos e marcenaria",
+      "Leve e fácil de trabalhar",
+      "Pode ser plainado!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/imagem_5x5_pinus_simples.jpg",
+        "alt": "Tábuas de Garapa para deck"
+      },
+      {
+        "src": "images/estoque/imagem_2_5x5_pinus_simples.jpg",
+        "alt": "Detalhe da textura Garapa"
+      }
+    ]
+  },
+  {
+    "id": "sarrafo-eucalipto-25x50",
+    "nome": "Sarrafo Eucalipto",
+    "preco": 8.1,
+    "descricao": "Sarrafo de Eucalipto, ótimo para artesanatos e telhas.",
+    "largura_mm": 50,
+    "comprimento_mm": 3000,
+    "espessura_mm": 25,
+    "tipo": ["Eucalipto", "Sarrafo"],
+    "caracteristicas": [
+      "Alta resistência estrutural",
+      "Durabilidade excepcional",
+      "Ótimo para artesanatos",
+      "Madeira forte para estruturas de telhado",
+      "Pode ser plainado!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/sarrafo_eucalipto_1.jpg",
+        "alt": "Pacote de sarrafinhos"
+      },
+      {
+        "src": "images/estoque/sarrafo_eucalipto_2.jpg",
+        "alt": "Pacote de sarrafinhos"
+      }
+    ]
+  },
+  {
+    "id": "deck-pinus-tratado-9x13.5",
+    "nome": "Deck Pinus Tratado",
+    "preco": 62.00,
+    "descricao": "Deck de Pinus Tratado ideal para ambientes externos.",
+    "largura_mm": 9.5,
+    "comprimento_mm": 3000,
+    "espessura_mm": 20,
+    "tipo": ["Pinus Tratado", "Deck"],
+    "caracteristicas": [
+      "Resistente às ações do tempo",
+      "Resistente à pragas",
+      "Resistente ao cupim",
+      "15 anos de garantia"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/deck_01.jpeg",
+        "alt": "Pedaços de Deck Tratado"
+      },
+      {
+        "src": "images/estoque/deck_02.jpeg",
+        "alt": "Decks alinhados"
+      }
+    ]
+  }
+]
