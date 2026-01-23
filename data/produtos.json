@@ -29,6 +29,48 @@
     ]
   },
   {
+    "id": "caibro-eucalipto-5x10x400",
+    "nome": "Caibro Eucalipto 5 x 10 cm x 4 metros",
+    "preco": 40.0,
+    "descricao": "Madeira rigida, livre de cupins, ideal para construção residencial.",
+    "largura_mm": 100,
+    "comprimento_mm": 4000,
+    "espessura_mm": 50,
+    "tipo": ["Eucalipto", "Caibro"],
+    "caracteristicas": [
+      "Madeira de boa qualidade",
+      "Sem cupins/brocas",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/caibro_eucalipto_5_x_10_4_metros.jpeg",
+        "alt": "Caibros de Eucalipto"
+      }
+    ]
+  },
+  {
+    "id": "sarrafo-eucalipto-8x8x300",
+    "nome": "Sarrafo Eucalipto 8 x 8 cm x 3 metros",
+    "preco": 35.0,
+    "descricao": "Madeira rigida, livre de cupins, ideal para construção residencial.",
+    "largura_mm": 80,
+    "comprimento_mm": 3000,
+    "espessura_mm": 80,
+    "tipo": ["Eucalipto", "Sarrafo"],
+    "caracteristicas": [
+      "Madeira de boa qualidade",
+      "Sem cupins/brocas",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/sarrafo_8_x_8_eucalipto.jpeg",
+        "alt": "Sarrafo de Eucalipto"
+      }
+    ]
+  },
+  {
     "id": "assoalho-eucalipto-2x8x300",
     "nome": "Assoalho Eucalipto 8 cm",
     "preco": 20.5,
