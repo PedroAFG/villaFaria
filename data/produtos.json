@@ -1,82 +1,157 @@
 [
   {
-    "id": "tabua-pinus-simples-25x300",
-    "nome": "Tábua Pinus Simples 30 cm",
-    "preco": 60.0,
-    "descricao": "Madeira seca, ótima para marcenaria, construção civil e decoração.",
-    "largura_mm": 300,
-    "comprimento_mm": 3000,
-    "espessura_mm": 25,
-    "tipo": ["Pinus Simples", "Tábua"],
-    "caracteristicas": [
-      "Proveniente de reflorestamento",
-      "Textura fina, macia e fácil para trabalho",
-      "Densidade leve e moderada",
-      "Sustentável",
-      "Pode ser plainado!"
-    ],
-    "imagens": [
-      {
-        "src": "images/estoque/imagem_tabua_30_pinus_simples.jpg",
-        "alt": "Tábuas de Pinus com 30 cm de largura"
-      },
-      {
-        "src": "images/estoque/imagem_2_tabua_30_pinus_simples.jpg",
-        "alt": "Tábua plainada e galopada"
-      }
-    ]
-  },
-  {
-    "id": "sarrafo-pinus-simples-25x50",
-    "nome": "Sarrafo Pinus Simples",
-    "preco": 6.0,
-    "descricao": "Madeira leve, alguns nós aparentes e veios suaves",
-    "largura_mm": 50,
-    "comprimento_mm": 3000,
-    "espessura_mm": 25,
-    "tipo": ["Pinus Simples", "Sarrafo"],
-    "caracteristicas": [
-      "Leve e fácil de trabalhar",
-      "Aceita bem corte, pregos e acabamentos",
-      "Textura fina",
-      "Sustentável",
-      "Pode ser plainado!"
-    ],
-    "imagens": [
-      {
-        "src": "images/estoque/imagem_sarrafos_pinus_simples.jpg",
-        "alt": "Sarrafos 2,5 x 5 cm"
-      },
-      {
-        "src": "images/estoque/imagem_sarrafo_pinus_simples_2.jpg",
-        "alt": "Sarrafos plainados"
-      }
-    ]
-  },
-  {
-    "id": "sarrafo-5x5-pinus-simples-50x50",
-    "nome": "5 x 5 Pinus Simples",
-    "preco": 12.45,
-    "descricao": "Peça extremamente versátil, ideal para diversas aplicações.",
-    "largura_mm": 50,
+    "id": "caibro-eucalipto-5x10x300",
+    "nome": "Caibro Eucalipto 5 x 10 cm",
+    "preco": 27.0,
+    "descricao": "Madeira rigida, livre de cupins, ideal para construção residencial.",
+    "largura_mm": 100,
     "comprimento_mm": 3000,
     "espessura_mm": 50,
-    "tipo": ["Pinus Simples", "5 x 5"],
+    "tipo": ["Eucalipto", "Caibro"],
     "caracteristicas": [
-      "Madeira macia",
-      "Ótimo custo benefício",
-      "Estrutuas (telhado), acabamentos e marcenaria",
-      "Leve e fácil de trabalhar",
-      "Pode ser plainado!"
+      "Madeira de boa qualidade",
+      "Sem cupins/brocas",
+      "Podemos entregar!"
     ],
     "imagens": [
       {
-        "src": "images/estoque/imagem_5x5_pinus_simples.jpg",
-        "alt": "Tábuas de Garapa para deck"
+        "src": "images/estoque/caibro_eucalipto_5_x_10_3_metros.jpeg",
+        "alt": "Caibros de Eucalipto"
       },
       {
-        "src": "images/estoque/imagem_2_5x5_pinus_simples.jpg",
-        "alt": "Detalhe da textura Garapa"
+        "src": "images/estoque/caibro_eucalipto_5_x_10_3_metros_2.jpeg",
+        "alt": "Caibros de Eucalipto"
+      },
+      {
+        "src": "images/estoque/caibro_eucalipto_5_x_10_3_metros_3.jpeg",
+        "alt": "Caibros de Eucalipto"
+      }
+    ]
+  },
+  {
+    "id": "assoalho-eucalipto-2x8x300",
+    "nome": "Assoalho Eucalipto 8 cm",
+    "preco": 20.5,
+    "descricao": "Madeira plainada, seca, livre de nós.",
+    "largura_mm": 80,
+    "comprimento_mm": 3000,
+    "espessura_mm": 20,
+    "tipo": ["Eucalipto", "Beneficiado"],
+    "caracteristicas": [
+      "Madeira de boa qualidade",
+      "Sem cupins/brocas",
+      "Seca",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/assoalho_eucalipto.jpeg",
+        "alt": "Beneficiado de Eucalipto"
+      }
+    ]
+  },
+  {
+    "id": "linha-eucalipto-6x16x300",
+    "nome": "Linha Eucalipto 6 x 16 cm",
+    "preco": 52.0,
+    "descricao": "Madeira rigida, livre de cupins, ideal para construção residencial.",
+    "largura_mm": 160,
+    "comprimento_mm": 3000,
+    "espessura_mm": 60,
+    "tipo": ["Eucalipto", "Linha"],
+    "caracteristicas": [
+      "Madeira de boa qualidade",
+      "Sem cupins/brocas",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/linha_eucalipto_6_x_16_4_metros.jpeg",
+        "alt": "Linhas de Eucalipto"
+      }
+    ]
+  },
+  {
+    "id": "pe-direito-eucalipto-15x15x300",
+    "nome": "Pé direito de Eucalipto 15 x 15 cm",
+    "preco": 100.0,
+    "descricao": "Madeira de segunda qualidade, livre de cupins, ideal para construção residencial.",
+    "largura_mm": 150,
+    "comprimento_mm": 3000,
+    "espessura_mm": 150,
+    "tipo": ["Eucalipto", "Pé direito"],
+    "caracteristicas": [
+      "Madeira de segunda qualidade",
+      "Sem cupins/brocas",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/pe_direito_15_x_15_eucalipto.jpeg",
+        "alt": "Linhas de Eucalipto"
+      }
+    ]
+  },
+  {
+    "id": "sarrafo-telha-cambara-2.5x5x300",
+    "nome": "Sarrafo de Cambará 2,5 x 5 cm",
+    "preco": 4.0,
+    "descricao": "Madeira boa, ideal para construção residencial, preço referente ao metro.",
+    "largura_mm": 50,
+    "comprimento_mm": 3000,
+    "espessura_mm": 2.5,
+    "tipo": ["Cambará", "Sarrafo"],
+    "caracteristicas": [
+      "Madeira de segunda qualidade",
+      "Pode ter alguma broca, mas livre de cupins",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/sarrafo_telha_cambara.jpeg",
+        "alt": "Sarrafos de Cambará"
+      }
+    ]
+  },
+  {
+    "id": "sarrafao-cambara-5x5x300",
+    "nome": "Sarrafo de Cambará 5 x 5 cm",
+    "preco": 8.0,
+    "descricao": "Madeira de segunda qualidade, ideal para construção residencial, preço referente ao metro.",
+    "largura_mm": 50,
+    "comprimento_mm": 5500,
+    "espessura_mm": 50,
+    "tipo": ["Cambará", "Sarrafo"],
+    "caracteristicas": [
+      "Madeira de segunda qualidade",
+      "Pode ter alguma broca, algumas peças estão tortas",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/sarrafao_5_x_5_cm_cambara.jpeg",
+        "alt": "Sarrafos de Cambará"
+      }
+    ]
+  },
+  {
+    "id": "prancha-eucalipto-15x15x300",
+    "nome": "Prancha de Eucalipto 5 x 20 cm",
+    "preco": 55.0,
+    "descricao": "Madeira de boa qualidade, livre de cupins, ideal para construção residencial.",
+    "largura_mm": 200,
+    "comprimento_mm": 3000,
+    "espessura_mm": 50,
+    "tipo": ["Eucalipto", "Prancha"],
+    "caracteristicas": [
+      "Madeira de boa qualidade",
+      "Sem cupins/brocas",
+      "Podemos entregar!"
+    ],
+    "imagens": [
+      {
+        "src": "images/estoque/prancha_5_x_20_cm_eucalipto.jpeg",
+        "alt": "Linhas de Eucalipto"
       }
     ]
   },
@@ -104,32 +179,6 @@
       {
         "src": "images/estoque/sarrafo_eucalipto_2.jpg",
         "alt": "Pacote de sarrafinhos"
-      }
-    ]
-  },
-  {
-    "id": "deck-pinus-tratado-9x13.5",
-    "nome": "Deck Pinus Tratado",
-    "preco": 62.00,
-    "descricao": "Deck de Pinus Tratado ideal para ambientes externos.",
-    "largura_mm": 9.5,
-    "comprimento_mm": 3000,
-    "espessura_mm": 20,
-    "tipo": ["Pinus Tratado", "Deck"],
-    "caracteristicas": [
-      "Resistente às ações do tempo",
-      "Resistente à pragas",
-      "Resistente ao cupim",
-      "15 anos de garantia"
-    ],
-    "imagens": [
-      {
-        "src": "images/estoque/deck_01.jpeg",
-        "alt": "Pedaços de Deck Tratado"
-      },
-      {
-        "src": "images/estoque/deck_02.jpeg",
-        "alt": "Decks alinhados"
       }
     ]
   }
